@@ -113,19 +113,19 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <img src="img/slide_1.jpg" alt="hotelPhoto">
+                                <img src="img/slide_1.jpg" alt="hotelPhoto" class="pres">
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/slide_2.jpg" alt="hotelPhoto">
+                                <img src="img/slide_2.jpg" alt="hotelPhoto" class="pres">
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/slide_3.jpg" alt="hotelPhoto">
+                                <img src="img/slide_3.jpg" alt="hotelPhoto" class="pres">
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/slide_4.jpg" alt="hotelPhoto">
+                                <img src="img/slide_4.jpg" alt="hotelPhoto" class="pres">
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/slide_5.jpg" alt="hotelPhoto">
+                                <img src="img/slide_5.jpg" alt="hotelPhoto" class="pres">
                             </div>
                         </div>
                         <!-- If we need navigation buttons -->
@@ -134,12 +134,47 @@
                     </div>
                 </div>
                 <!-- /.slider -->
+                <div class="hotel-right">
+                    <div class="booking">
+                    <div class="booking__info">
+                        <div class="booking__price">
+                            <span class="booking__start">price starts as</span>
+                            <strong class="booking__pricetag">$ 8,500</strong>
+                            <span class="booking__per-room">per room / night</span>
+                        </div>
+                        <div class="booking__room">
+                            <div class="booking__text">
+                                <img src="img/user.svg" alt="Icon: user" class="booking__icon">
+                                <span class="booking__room__description">2 x Guests</span>
+                            </div>
+                            <div class="booking__text">
+                                <img src="img/home.svg" alt="Icon: home" class="booking__icon">
+                                <span class="booking__room__description">1 x Room</span>
+                            </div>
+                        </div>
+                        <!--/booking__room -->
+                    </div>
+                    <div class="booking__call-center">
+                        <span class="booking__heading">Quick Booking</span>
+                        <a class="booking__number" href="tel:12100">
+                            <img src="img/call.svg" alt="Icon: phone" class="booking__icon">
+                            <span class="booking__num">12100</span>
+                        </a>
+                    </div>
+                    <button class="button booking__button">View Other Options</button>
+                </div>
+                <!-- /.booking -->
+                <div class="map"></div>
+                <!-- /.map -->
+                </div>
+                <!-- /.hotel-right -->
             </div>
             <!-- /.hotel-grid -->
         </div>
         <!-- /.container -->
     </section>
     <!-- /.hotel -->
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
